@@ -7,3 +7,9 @@ def solution(numbers):
         print("배열 크기 오류")
         return
     return sum(numbers) / len(numbers)
+
+# 방법 2
+import numpy as np
+
+def solution(numbers):
+    return np.mean(numbers)
