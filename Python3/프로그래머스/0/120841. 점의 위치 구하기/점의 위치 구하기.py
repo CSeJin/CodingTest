@@ -8,5 +8,5 @@ def solution(dot):
     
 # 방법 2
 def solution(dot):
-    quad = [(2,3),(1,4)]
-    return quad[dot[0] > 0][dot[1] < 0]
+    quad = [(3,2),(4,1)]
+    return quad[dot[0] > 0][dot[1] > 0]
