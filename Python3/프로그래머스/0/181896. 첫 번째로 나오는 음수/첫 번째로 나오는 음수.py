@@ -1,3 +1,4 @@
+# 방법 1
 def solution(num_list):
     num = -1
     for n in num_list:
@@ -5,3 +6,10 @@ def solution(num_list):
             num = num_list.index(n)
             break
     return num
+
+# 방법 1
+def solution(num_list):
+    for idx, num in enumerate(num_list):
+        if num < 0:
+            return idx
+    return -1
